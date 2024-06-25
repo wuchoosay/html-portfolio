@@ -1,0 +1,28 @@
+.video-popup {
+    position: relative;
+  }
+  
+  .video-popup img {
+    cursor: pointer;
+  }
+  
+  .video-popup-overlay {
+    display: inside;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  .video-popup-content {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+  
