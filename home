@@ -1,0 +1,67 @@
+# html-po<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile-style.css">
+    <style>
+        .center {
+          text-align: center;
+        }
+    </style>
+    
+    <style>
+    
+        /* Style for the pop-up video container */
+        
+            .video-container {
+              display: none;
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              z-index: 9999;
+            }
+    </style>  
+
+<style>
+  a {
+      color: whitesmoke; /* Normal link color */
+      text-decoration: none; /* Optional: Remove underline */
+  }
+  a:hover {
+      color: rgb(226, 220, 31); /* Color when hovering */
+  }
+  
+</style>
+
+
+    <title>CHIKE PORTOLIO</title>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.justmakeitdope.com">Hire Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+
+<!-- Clickable image -->
+<div class="center">
+        <img src="HEADSHOTS/headshot.png" alt="profile headshot">
+</div>
+
+<div id="loading-screen">
+  <video id="loading-video" autoplay muted>
+      <source src="Portfolio-loading.mp4" type="video/mp4">
+  </video>
+</div>
+<div id="main-content" style="display:none;">
+  <!-- Your main content goes here -->
+  <!-- Other content -->
+</div>
+<script src="script.js"></script>
+
+
+</body>
+
+  </html>rtfolio
